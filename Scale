@@ -1,9 +1,14 @@
 Scale Features
-When your data has different values, and even different measurement units, it can be difficult to compare them. What is kilograms compared to meters? Or altitude compared to time?
+
+http://localhost:8888/notebooks/ML%20-%20Scale.ipynb
+
+When your data has different values, and even different measurement units, it can be difficult to compare them. 
+What is kilograms compared to meters? Or altitude compared to time?
 
 The answer to this problem is scaling. We can scale data into new values that are easier to compare.
 
-Take a look at the table below, it is the same data set that we used in the multiple regression chapter, but this time the volume column contains values in liters instead of cm3 (1.0 instead of 1000).
+Take a look at the table below, it is the same data set that we used in the multiple regression chapter, 
+but this time the volume column contains values in liters instead of cm3 (1.0 instead of 1000).
 
 Car	Model	Volume	Weight	CO2	
 Toyota	Aygo	1.0	790	99
@@ -42,7 +47,8 @@ Ford	B-Max	1.6	1235	104
 BMW	2	1.6	1390	108
 Opel	Zafira	1.6	1405	109
 Mercedes	SLK	2.5	1395	120
-It can be difficult to compare the volume 1.0 with the weight 790, but if we scale them both into comparable values, we can easily see how much one value is compared to the other.
+It can be difficult to compare the volume 1.0 with the weight 790, but if we scale them both into comparable values, 
+we can easily see how much one value is compared to the other.
 
 There are different methods for scaling data, in this tutorial we will use a method called standardization.
 
@@ -61,7 +67,8 @@ If you take the volume column from the data set above, the first value is 1.0, a
 
 Now you can compare -2.1 with -1.59 instead of comparing 790 with 1.0.
 
-You do not have to do this manually, the Python sklearn module has a method called StandardScaler() which returns a Scaler object with methods for transforming data sets.
+You do not have to do this manually, the Python sklearn module has a method called StandardScaler() 
+which returns a Scaler object with methods for transforming data sets.
 
 Example
 Scale all values in the Weight and Volume columns:
