@@ -1,4 +1,7 @@
 Data Distribution
+
+http://localhost:8888/notebooks/ML%20-%20Data%20Distribution.ipynb
+
 Earlier in this tutorial we have worked with very small amounts of data in our examples, just to understand the different concepts.
 
 In the real world, the data sets are much bigger, but it can be difficult to gather real world data, at least at an early stage of a project.
