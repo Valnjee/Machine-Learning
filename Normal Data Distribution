@@ -1,4 +1,7 @@
 Normal Data Distribution
+
+#See Data Distribution for actual code
+
 In the previous chapter we learned how to create a completely random array, of a given size, and between two given values.
 
 In this chapter we will learn how to create an array where the values are concentrated around a given value.
